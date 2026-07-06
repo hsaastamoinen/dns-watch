@@ -53,6 +53,7 @@ It expects these system tools to be available:
 - curl
 - msmtp, or another working mail command
 - systemd
+- reachable Gotify server and app token, if Gotify notifications are used
 
 On Ubuntu/Debian, install the practical dependencies with:
 
