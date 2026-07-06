@@ -1,0 +1,6 @@
+[Unit]
+Description=DNS availability and latency check
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/dns-watch.sh
